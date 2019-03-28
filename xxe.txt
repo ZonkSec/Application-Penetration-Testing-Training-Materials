@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<!DOCTYPE foo [ <!ELEMENT foo ANY >
+<!ENTITY xxetest "IsThisReflected" >]>
+<creds>
+  <user>&xxetest;</user>
+  <pass>mypass</pass>
+</creds>
